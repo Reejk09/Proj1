@@ -22,19 +22,7 @@ document.getElementById('emailForm').addEventListener('submit', function(event) 
   }
 });
 
-document.getElementById('spamButton').addEventListener('click', function() {
-  spamCounter++;
-  document.getElementById('spamCount').textContent = spamCounter;
-  document.getElementById('spamButton').classList.add('red-button');
-  document.getElementById('hamButton').classList.remove('green-button');
-});
 
-document.getElementById('hamButton').addEventListener('click', function() {
-  hamCounter++;
-  document.getElementById('hamCount').textContent = hamCounter;
-  document.getElementById('hamButton').classList.add('green-button');
-  document.getElementById('spamButton').classList.remove('red-button');
-});
 
 
 
